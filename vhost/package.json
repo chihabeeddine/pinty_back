@@ -1,0 +1,35 @@
+{
+  "name": "vhost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vhosts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iFonny",
+  "license": "ISC",
+  "apps": [
+    {
+      "name": "vhost",
+      "script": "./vhost/vhosts.js",
+      "restart_delay": 1000,
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "ignore_watch": [
+        "node_modules",
+        "API/node_modules",
+        "vhost/node_modules",
+        "logs/*",
+        "API/logs/*",
+        "*.log",
+        ".git"
+      ],
+      "post_update": [
+        "npm install"
+      ]
+    }
+  ],
+  "dependencies": {
+    "redbird": "^0.8.0"
+  }
+}

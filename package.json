@@ -1,0 +1,61 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "unit testing",
+  "main": "app.js",
+  "dependencies": {
+    "chai-http": "^3.0.0",
+    "mongoose": "^5.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai-http": "^3.0.0",
+    "mongoose": "^4.13.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "@google/maps": "^0.4.5",
+    "async": "^2.6.0",
+    "base64-img": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "deep-freeze": "0.0.1",
+    "express": "^4.16.2",
+    "express-rate-limit": "^2.11.0",
+    "fb": "^2.0.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^6.0.0",
+    "glob": "^7.1.2",
+    "googleapis": "^23.0.0",
+    "hat": "0.0.3",
+    "helmet": "^3.9.0",
+    "image-size": "^0.6.2",
+    "is-base64": "0.0.4",
+    "lodash": "^4.17.5",
+    "make-dir": "^1.2.0",
+    "mime-types": "^2.1.18",
+    "moment": "^2.19.2",
+    "mongo-express": "^0.47.0",
+    "morgan": "^1.9.0",
+    "node-cron": "^1.2.1",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha --exit --reporter spec --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simbaste/EIP-Pinty-Backend.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Chihabeeddine Daoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simbaste/EIP-Pinty-Backend/issues"
+  },
+  "homepage": "https://github.com/simbaste/EIP-Pinty-Backend#readme"
+}

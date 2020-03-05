@@ -1,0 +1,30 @@
+GET /user/id/:id/profile
+-> Check route params
+-> Check user perms (self user, or admin)
+-> Get user data
+
+GET /user/id/:id/profile/public
+-> Check route params
+-> Get user public data
+
+PATCH /user/id/:id/profile/edit
+-> Check route params
+-> Check user perms (self user, or admin)
+-> Save new profile picture (if image set) (base64 ou multipart?)
+-> Edit user
+
+GET /user/id/:id/friend/list
+-> Check route params
+-> Check user perms (self user, or admin)
+-> Get user friends IDs
+-> Get friends
+
+PUT /user/id/:id/friend/add/:friendID
+-> Check route params
+-> Check user perms (self user, or admin)
+-> Add friend to user
+
+DELETE /user/id/:id/friend/delete/:friendID
+-> Check route params
+-> Check user perms (self user, or admin)
+-> Delete friend from user
