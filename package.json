@@ -26,7 +26,7 @@
     "fs": "0.0.1-security",
     "fs-extra": "^6.0.0",
     "glob": "^7.1.2",
-    "googleapis": "^23.0.0",
+    "googleapis": "^59.0.0",
     "hat": "0.0.3",
     "helmet": "^3.9.0",
     "image-size": "^0.6.2",
