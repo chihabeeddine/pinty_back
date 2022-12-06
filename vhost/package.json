@@ -30,6 +30,6 @@
     }
   ],
   "dependencies": {
-    "redbird": "^0.8.0"
+    "redbird": "^0.10.0"
   }
 }
